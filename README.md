@@ -44,36 +44,11 @@ File I/O for saving and loading properties
 
 Exception handling for invalid input
 
-How to Run
-Prerequisites
-A C++ compiler supporting C++11 or later (e.g., g++, clang)
-
-Command line terminal
-
-Steps
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/realestate-management.git
 Navigate to the project directory:
-
-bash
-Copy
-Edit
 cd realestate-management
 Compile the program:
-
-bash
-Copy
-Edit
 g++ main.cpp -o realestate -std=c++11
 Run the executable:
-
-bash
-Copy
-Edit
 ./realestate
 Usage
 Choose from the menu options to add, display, sort, save, load, update, or compare properties.
@@ -83,9 +58,6 @@ Follow prompts to enter specific details for each property type.
 Property data is saved in properties.txt for persistence.
 
 Project Structure
-bash
-Copy
-Edit
 /realestate-management
 │
 ├── main.cpp       # Main source code containing all classes and main function
@@ -94,9 +66,6 @@ Edit
 Code Highlights
 Class Hierarchy:
 
-csharp
-Copy
-Edit
 Property (abstract base)
 ├── ResidentialProperty
 │   ├── Villa
